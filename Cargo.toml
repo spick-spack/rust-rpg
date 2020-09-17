@@ -1,0 +1,14 @@
+[package]
+name = "rust-rpg"
+version = "0.1.0"
+authors = ["TomGoodacre <t.goodacre@sakurasoft.co.jp>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
+lazy_static = "1.4.0"
+rand = "0.7"
+num = "0.3"
+sdl2 = { version = "0.34", features = ["bundled", "static-link"] }
